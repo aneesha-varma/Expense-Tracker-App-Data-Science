@@ -1,24 +1,24 @@
 # 💰 Expense Tracker App (Data Science Project)
 
 ## 📊 Project Overview
-The Expense Tracker App is a data science project designed to help users track, analyze, and visualize their personal or business expenses. It converts raw financial data into meaningful insights using Python, helping users understand spending patterns and improve financial decision-making.
+The Expense Tracker App is a data science project designed to track, analyze, and visualize personal or business expenses. It converts raw financial transactions into meaningful insights using Python, helping users understand their spending patterns and improve financial decision-making.
 
-This project simulates real-world FinTech applications like Google Pay, PhonePe, CRED, Mint, and RazorpayX where expense tracking and analytics are core features.
+This project simulates real-world FinTech applications such as Google Pay, PhonePe, CRED, Mint, and RazorpayX where expense tracking and analytics are widely used.
 
 ---
 
 ## 🎯 Objective
-The main objective of this project is to:
+The main objectives of this project are:
 - Track income and expenses
 - Categorize spending automatically
 - Analyze financial behavior
-- Visualize trends using charts
-- Provide actionable financial insights
+- Visualize spending patterns
+- Generate actionable insights
 
 ---
 
 ## 🧠 Problem Statement
-People often struggle to track daily expenses, leading to overspending and poor budgeting. This project solves that problem by transforming raw expense data into structured insights and visual reports that help users manage money effectively.
+People often struggle to track daily expenses, leading to overspending and poor financial planning. This project solves that problem by converting raw financial data into structured insights and visual reports.
 
 ---
 
@@ -50,10 +50,9 @@ Expense-Tracker-App/
 ---
 
 ## 📂 Dataset Description
-The dataset contains synthetic or user-generated expense data with the following columns:
-
+The dataset contains synthetic expense records with the following columns:
 - Date → Transaction date
-- Category → Type of expense (Food, Travel, Rent, Bills, etc.)
+- Category → Expense type (Food, Travel, Rent, Bills, etc.)
 - Description → Transaction details
 - Amount → Money spent or earned
 - Type → Income or Expense
@@ -63,20 +62,28 @@ The dataset contains synthetic or user-generated expense data with the following
 ## 🚀 Features
 - Data cleaning and preprocessing
 - Category-wise expense analysis
-- Monthly income vs expense tracking
-- Spending behavior visualization
-- Interactive Streamlit dashboard
-- Auto-generated financial insights
-- Saved graphical reports
+- Monthly spending trends
+- Income vs expense comparison
+- Interactive dashboard using Streamlit
+- Automatic insight generation
+- Saved visual reports
 
 ---
 
-## 📊 Visualizations Generated
-- 📊 Category-wise Spending Bar Chart
-- 🥧 Expense Distribution Pie Chart
-- 📈 Monthly Spending Trend Line Chart
+## 📊 Visualizations & Outputs
 
-All charts are saved in the `outputs/` folder.
+### 📊 Category-wise Spending
+![Category Chart](outputs/category_chart.png)
+
+---
+
+### 🥧 Expense Distribution
+![Pie Chart](outputs/pie_chart.png)
+
+---
+
+### 📈 Monthly Spending Trend
+![Monthly Trend](outputs/monthly_trend.png)
 
 ---
 
@@ -97,21 +104,21 @@ streamlit run app.py
 
 ---
 
-## 📷 Outputs
-After running the project, you will get:
-- Cleaned dataset processing
-- Insight summaries in terminal
+## 📷 Outputs Generated
+After execution, the project generates:
+- Cleaned dataset
+- Console insights
 - Saved charts in outputs folder
 - Interactive dashboard in browser
 
 ---
 
-## 💡 Key Insights Generated
-- Highest spending category identification
-- Monthly expense trend analysis
+## 💡 Key Insights
+- Highest spending category detection
+- Monthly expense trends
 - Income vs expense comparison
-- Spending pattern detection
-- Budget leak identification
+- Overspending pattern detection
+- Budget analysis
 
 ---
 
@@ -124,24 +131,24 @@ This project is similar to systems used in:
 - RazorpayX 🏦
 - Splitwise 🤝
 
-These platforms use similar analytics to help users track financial behavior and manage money efficiently.
+These platforms use similar analytics systems for financial tracking and user insights.
 
 ---
 
 ## 🔮 Future Improvements
 - AI-based expense prediction 🤖
-- Smart budgeting alerts 🔔
+- Smart budget alerts 🔔
 - Bank API integration 🏦
-- Mobile application 📱
-- Real-time expense tracking ⏱️
-- Machine learning-based spending classification
+- Mobile app version 📱
+- Real-time tracking ⏱️
+- Machine learning classification of expenses
 
 ---
 
 ## 👨‍💻 Author
-This project is developed as a Data Science portfolio project for learning, internships, and placements.
+This project is developed as a Data Science portfolio project for internships, placements, and academic submission.
 
 ---
 
-## ⭐ If you like this project
-Give it a star ⭐ on GitHub and feel free to improve or extend it further.
+## ⭐ Support
+If you like this project, please give it a ⭐ on GitHub and feel free to enhance it further.
